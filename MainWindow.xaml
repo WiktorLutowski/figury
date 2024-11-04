@@ -64,7 +64,13 @@
         <TextBox x:Name="CicrcleATextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="11" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
         <TextBox x:Name="CircleCircuitTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
         <TextBox x:Name="CircleAreaTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="13" TextWrapping="Wrap"  VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <Button Grid.Column="4" Content="Licz obwód" HorizontalAlignment="Stretch" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
-        <Button Grid.Column="4" Content="Licz pole" HorizontalAlignment="Stretch" Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+        <Button x:Name="RectangleCircuitButton" Grid.Column="4" Content="Licz obwód" HorizontalAlignment="Stretch" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+        <Button x:Name="RectangleAreaButton" Grid.Column="4" Content="Licz pole" HorizontalAlignment="Stretch" Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+
+        <Button x:Name="TriangleCircuitButton" Grid.Column="4" Content="Licz obwód" HorizontalAlignment="Stretch" Grid.Row="8" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+        <Button x:Name="TriangleAreaButton" Grid.Column="4" Content="Licz pole" HorizontalAlignment="Stretch" Grid.Row="9" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+
+        <Button x:Name="CircleCircuitButton" Grid.Column="4" Content="Licz obwód" HorizontalAlignment="Stretch" Grid.Row="12" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+        <Button x:Name="CircleAreaButton" Grid.Column="4" Content="Licz pole" HorizontalAlignment="Stretch" Grid.Row="13" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
     </Grid>
 </Window>
