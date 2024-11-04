@@ -37,5 +37,19 @@
         <Rectangle Height="150" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Stroke="Black" Width="100" Fill="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Polygon Grid.Row="7" Grid.RowSpan="3" Grid.ColumnSpan="2" Points="50,0 100,100, 0,100"  Stroke="Black" Fill="Blue" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Ellipse Grid.Row="11" Height="100" Grid.ColumnSpan="2" Grid.RowSpan="3" Fill="Green" Stroke="Black" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Grid.Column="2" Content="Pierwszy bok" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Drugi bok" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Obwód" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Pole" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" FontSize="16"/>
+
+        <Label Grid.Column="2" Content="Bok" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Obwód" HorizontalAlignment="Center" Grid.Row="8" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Pole" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center" FontSize="16"/>
+
+        <Label Grid.Column="2" Content="Promień" HorizontalAlignment="Center" Grid.Row="11" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Obwód" HorizontalAlignment="Center" Grid.Row="12" VerticalAlignment="Center" FontSize="16"/>
+        <Label Grid.Column="2" Content="Pole" HorizontalAlignment="Center" Grid.Row="13" VerticalAlignment="Center" FontSize="16"/>
+
+        
     </Grid>
 </Window>
