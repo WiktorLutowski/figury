@@ -50,6 +50,7 @@
         <Label Grid.Column="2" Content="Obwód" HorizontalAlignment="Center" Grid.Row="12" VerticalAlignment="Center" FontSize="16"/>
         <Label Grid.Column="2" Content="Pole" HorizontalAlignment="Center" Grid.Row="13" VerticalAlignment="Center" FontSize="16"/>
 
-        
+        <RadioButton GroupName="FigureType" Grid.Column="2" Content="Kwadrat" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16"/>
+        <RadioButton IsChecked="True" GroupName="FigureType" Grid.Column="3" Content="Prostokąt" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16"/>
     </Grid>
 </Window>
