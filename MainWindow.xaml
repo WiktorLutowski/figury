@@ -50,12 +50,13 @@
         <Label Grid.Column="2" Content="Obwód" HorizontalAlignment="Center" Grid.Row="12" VerticalAlignment="Center" FontSize="16"/>
         <Label Grid.Column="2" Content="Pole" HorizontalAlignment="Center" Grid.Row="13" VerticalAlignment="Center" FontSize="16"/>
 
-        <TextBox x:Name="RectangleBTextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <RadioButton x:Name="SquareRadioButton" GroupName="FigureType" Grid.Column="2" Content="Kwadrat" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16" Checked="SquareRadioButton_Checked"/>
-        <RadioButton x:Name="RectangleRadioButton" IsChecked="True" GroupName="FigureType" Grid.Column="3" Content="Prostokąt" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16" Checked="RectangleRadioButton_Checked"/>
-        <TextBox x:Name="RectangleATextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="RectangleBTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="RectangleATextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
         <TextBox x:Name="RectangleCircuitTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
         <TextBox x:Name="RectangleAreaTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        
+        <RadioButton x:Name="SquareRadioButton" GroupName="FigureType" Grid.Column="2" Content="Kwadrat" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16" Checked="SquareRadioButton_Checked"/>
+        <RadioButton x:Name="RectangleRadioButton" GroupName="FigureType" Grid.Column="3" Content="Prostokąt" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16" Checked="RectangleRadioButton_Checked"/>
 
         <TextBox x:Name="TriangleATextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
         <TextBox x:Name="TriangleCircuitTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>

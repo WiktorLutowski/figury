@@ -28,17 +28,25 @@ namespace Figury
         private void SquareRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             RectangleBTextBox.IsEnabled = false;
+            RectangleATextBox.IsEnabled = true;
             RectangleShape.Height = 100;
         }
 
         private void RectangleRadioButton_Checked(object sender, RoutedEventArgs e)
         {
             RectangleBTextBox.IsEnabled = true;
+            RectangleATextBox.IsEnabled = true;
             RectangleShape.Height = 150;
         }
 
         private void RectangleCircuitButton_Click(object sender, RoutedEventArgs e)
         {
+            if (SquareRadioButton.IsChecked == false && RectangleRadioButton.IsChecked == false)
+            {
+                MessageBox.Show("Proszę wybrać figurę (kwadrat albo prostokąt)");
+                return;
+            }
+
             double a = Parse(RectangleATextBox.Text);
             if (a == -1)
                 return;
@@ -57,6 +65,12 @@ namespace Figury
 
         private void RectangleAreaButton_Click(object sender, RoutedEventArgs e)
         {
+            if (SquareRadioButton.IsChecked == false && RectangleRadioButton.IsChecked == false)
+            {
+                MessageBox.Show("Proszę wybrać figurę (kwadrat albo prostokąt)");
+                return;
+            }
+
             double a = Parse(RectangleATextBox.Text);
             if (a == -1)
                 return;
