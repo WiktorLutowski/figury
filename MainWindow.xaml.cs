@@ -24,5 +24,17 @@ namespace Figury
         {
             InitializeComponent();
         }
+
+        private void SquareRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            RectangleBTextBox.IsEnabled = false;
+            RectangleShape.Height = 100;
+        }
+
+        private void RectangleRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            RectangleBTextBox.IsEnabled = true;
+            RectangleShape.Height = 150;
+        }
     }
 }
