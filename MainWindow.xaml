@@ -31,5 +31,8 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <Label Content="Kwadrat / Prostokąt" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF"/>
+        <Label Grid.Row="6" Content="Kwadrat / Prostokąt" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF"/>
+        <Label Grid.Row="10" Content="Kwadrat / Prostokąt" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF"/>
     </Grid>
 </Window>
