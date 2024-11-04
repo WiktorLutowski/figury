@@ -32,7 +32,10 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Label Content="Kwadrat / Prostokąt" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF" FontWeight="Bold"/>
-        <Label Grid.Row="6" Content="Kwadrat / Prostokąt" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF" FontWeight="Bold"/>
-        <Label Grid.Row="10" Content="Kwadrat / Prostokąt" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF" FontWeight="Bold"/>
+        <Label Grid.Row="6" Content="Trójkąt równoboczny" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF" FontWeight="Bold"/>
+        <Label Grid.Row="10" Content="Okrąg" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalAlignment="Stretch" Grid.ColumnSpan="6" FontSize="20" Background="#FFBFBFBF" FontWeight="Bold"/>
+        <Rectangle Height="150" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Stroke="Black" Width="100" Fill="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Polygon Grid.Row="7" Grid.RowSpan="3" Grid.ColumnSpan="2" Points="50,0 100,100, 0,100"  Stroke="Black" Fill="Blue" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Ellipse Grid.Row="11" Height="100" Grid.ColumnSpan="2" Grid.RowSpan="3" Fill="Green" Stroke="Black" Width="100" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Window>
