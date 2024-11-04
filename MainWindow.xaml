@@ -52,17 +52,19 @@
 
         <RadioButton GroupName="FigureType" Grid.Column="2" Content="Kwadrat" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16"/>
         <RadioButton IsChecked="True" GroupName="FigureType" Grid.Column="3" Content="Prostokąt" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="RectangleA" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="RectangleB" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="RectangleCircuit" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="RectangleArea" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="RectangleATextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="RectangleBTextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="RectangleCircuitTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="RectangleAreaTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
 
-        <TextBox x:Name="TriangleA" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="TriangleCircuit" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="TriangleArea" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="9" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="TriangleATextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="TriangleCircuitTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="TriangleAreaTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="9" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
 
-        <TextBox x:Name="CicrcleA" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="11" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="CircleCircuit" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
-        <TextBox x:Name="CircleArea" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="13" TextWrapping="Wrap"  VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="CicrcleATextBox" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="11" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="CircleCircuitTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="CircleAreaTextBox" Grid.Column="3" IsEnabled="False" HorizontalAlignment="Stretch" Grid.Row="13" TextWrapping="Wrap"  VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+        <Button Grid.Column="4" Content="Licz obwód" HorizontalAlignment="Stretch" Grid.Row="3" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
+        <Button Grid.Column="4" Content="Licz pole" HorizontalAlignment="Stretch" Grid.Row="4" Grid.ColumnSpan="2" VerticalAlignment="Stretch" FontSize="20"/>
     </Grid>
 </Window>
